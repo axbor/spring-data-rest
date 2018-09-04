@@ -39,20 +39,4 @@ public class Presenter {
         return admin;
     }
 
-    public void setId(final long id) {
-        this.id = id;
-    }
-
-    public void setFirstName(final String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(final String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setAdmin(final Admin admin) {
-        this.admin = admin;
-    }
-
 }

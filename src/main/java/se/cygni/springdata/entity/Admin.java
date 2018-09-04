@@ -38,20 +38,4 @@ public class Admin {
     public List<Presenter> getPresenters() {
         return presenters;
     }
-
-    public void setPresenters(final List<Presenter> presenters) {
-        this.presenters = presenters;
-    }
-
-    public void setId(final Long id) {
-        this.id = id;
-    }
-
-    public void setFirstName(final String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(final String lastName) {
-        this.lastName = lastName;
-    }
 }
